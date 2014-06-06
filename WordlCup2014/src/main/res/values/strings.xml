@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Picture World Cup 2014</string>
+    <string name="app_id">1391847034437605</string>
+    <string name="facebook">Login Facebook using Application</string>
+
+    <string name="thank">I really thank you when you evaluate my application ...</string>
+    <string name="title">Vote for my app :)</string>
+    <string name="content">You can vote for my application???</string>
+    <string name="ok">Ok</string>
+    <string name="novote">Do not show again</string>
+    <string name="later">Later</string>
+    <string name="like">%d Likes</string>
+    <string name="comment">%d Comments</string>
+    <string name="downloading">Downloading</string>
+    <string name="complete">Completed</string>
+
+</resources>
