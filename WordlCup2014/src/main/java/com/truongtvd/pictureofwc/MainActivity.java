@@ -2,6 +2,7 @@ package com.truongtvd.pictureofwc;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
@@ -109,6 +110,7 @@ public class MainActivity extends SherlockActivity {
         return new com.android.volley.Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response, String extraData) {
+                Log.e("JSON",response.toString());
                 loading.setVisibility(View.GONE);
                 listnew = JsonUtils.getListItem(response, listnew);
                 adapter = new DetailAdapter(MainActivity.this, listnew);

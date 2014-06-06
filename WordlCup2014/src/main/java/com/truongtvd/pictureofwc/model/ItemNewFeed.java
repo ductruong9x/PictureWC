@@ -8,8 +8,17 @@ public class ItemNewFeed {
 	private int time;
 	private int like_count;
 	private int comment_count;
+    private String link;
 
-	public int getComment_count() {
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public int getComment_count() {
 		return comment_count;
 	}
 

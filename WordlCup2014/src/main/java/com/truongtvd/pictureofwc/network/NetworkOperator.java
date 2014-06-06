@@ -49,7 +49,7 @@ public class NetworkOperator {
 			Response.Listener<JSONObject> responseSuccessListener,
 			Response.ErrorListener responseErrorListener) {
 
-		String params = "select object_id,caption,src_big,like_info,comment_info,created FROM photo WHERE owner = '606721589343692'  LIMIT "
+		String params = "select object_id,caption,src_big,like_info,comment_info,created,link FROM photo WHERE owner = '606721589343692'  LIMIT "
 				+ limit;
 
 		String endpoint = "";

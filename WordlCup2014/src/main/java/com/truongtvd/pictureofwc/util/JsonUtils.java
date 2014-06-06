@@ -46,6 +46,7 @@ public class JsonUtils {
 				item.setTime(content.getInt("created"));
 				item.setPost_id(content.getString("object_id") + "");
 				item.setImage(content.getString("src_big"));
+                item.setLink(content.getString("link"));
 				list.add(item);
 				Collections.shuffle(list);
 
